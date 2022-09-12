@@ -1,0 +1,56 @@
+h2{
+    color: rgba(63, 34, 133, 0.884);
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+h1{
+    color: white;
+    background-color: rgba(102, 26, 243, 0.452); 
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(126, 115, 115);
+    font-size: 12px;
+}
+
+.destacados{
+    color: olivedrab;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+#rojo{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(195, 193, 197);
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 5px solid black; 
+    box-sizing: border-box;
+    border-right: 5px dashed rebeccapurple ;
+    padding: 20px;
+}
+
+#celeste{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    background-color: beige;
+}
+   
+/* 
+regla de css
+h2 > tipo de selecto: etiqueta
+y adentro van las distintas propiedades 
+y sus valores */
