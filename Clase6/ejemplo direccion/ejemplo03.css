@@ -1,0 +1,14 @@
+.contenedor{
+    background-color: gray;
+    display: inline-flex;
+    /*flex-wrap: wrap;*/
+    flex-wrap: wrap-reverse;
+}
+
+.item{
+    background-color: rgb(255, 0, 85);
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}
