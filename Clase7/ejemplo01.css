@@ -1,0 +1,12 @@
+.caja{
+    width: 400px;
+    height: 250px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 130px;
+    /*transform: rotate(-90deg);*/
+    transform: scale(0.5) rotate(25deg); /*0 al 1 achica del 1 al 2 agranda;*/
+}
