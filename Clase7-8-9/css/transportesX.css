@@ -1,9 +1,13 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 header {
     background-color: #2e64a1;
+    padding-top: 16px;
 
 }
 
@@ -11,11 +15,14 @@ header h1 {
     color: white;
     font-style: italic;
     font-weight: 300;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
 }
 
 nav {
     background-color: #6da9ed;
-
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -27,4 +34,115 @@ nav ul {
 
 nav ul li {
     flex-grow: 1;
+    /*factor de crecimiento en línea*/
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    /*saca linea del link*/
+    color: white;
+    padding: 5px;
+    /*margenes de botones*/
+    display: block;
+    text-align: center;
+    /*para centrar botones*/
+
+}
+
+nav ul li a:hover {
+    background: #4c76a5;
+}
+
+/* :hover es para animar por ejemplo: el boton*/
+
+nav ul li a.activo {
+    background-color: #4c76a5;
+}
+
+/* .activo va pegado al a asi puede reconocer la clase especifica*/
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+    /* arriba-abajo  laterales*/
+    margin-top: 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+/*va en el main , div del header y el ul del nav*/
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.bienvenidos {
+    width: 75%;
+    margin-right: 16px;
+
+}
+
+.testimonios {
+    width: 25%;
+
+}
+
+.columnas {
+    display: flex;
+}
+
+.testimonio {
+    background: rgb(206, 203, 203);
+    width: 200px;
+
+}
+
+span {
+    margin-left: 16px;
+
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    display: block;
+    padding-top: 20px;
+
+
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.histori p {
+    font-size: 13px;
+}
+
+.pers {
+    border: 1px solid rgba(165, 165, 165, 1);
+    border-radius: 5px;
+    width: 18%;
+
+width: 158px;
+height: 273px;
+left: 48px;
+top: 551px;
+}
+
+.personas{
+    display: flex;
 }
