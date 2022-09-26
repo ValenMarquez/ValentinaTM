@@ -192,7 +192,7 @@ span {
 
 
 
-.servicio .info h4{
+.servicio .info h4 {
     color: #2e64a1;
     font-size: 16px;
     font-style: italic;
@@ -201,22 +201,23 @@ span {
 
 }
 
-.servicio .info p{
+.servicio .info p {
     font-size: 13px;
 }
 
-.servicio img{
+.servicio img {
     border-radius: 20px 20px 20px 0;
     display: block;
     max-width: 225px;
 }
 
-.servicio:nth-child(even){ /*hijos pares*/
+.servicio:nth-child(even) {
+    /*hijos pares*/
     flex-direction: row-reverse;
 }
 
 
-.servicio{
+.servicio {
     border: 1px solid rgb(129, 128, 128);
     border-radius: 20px 0 0 0;
     margin: 16px 0;
@@ -232,28 +233,69 @@ span {
     gap: 25px;
 }
 
-.contacto section{
+.contacto section {
     width: 100%;
 }
 
-.datos{
+.datos {
     font-size: 14px;
 }
 
-.datos ul li{
+.datos ul li {
     font-size: 13px;
 }
 
-.formulario p{
+.formulario p {
     display: flex;
 
 }
 
 
 
-.formulario p label{
+.formulario p label {
     min-width: 80px;
-    
+    display: flex;
+    align-items: center;
+
 }
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background-color: rgb(223, 217, 217);
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.formulario p textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario input[type="submit"] {
+    background-color: #6da9ed;
+    box-shadow: 0 0 4px rgb(194, 192, 192);
+    color: white;
+    font-size: 16px;
+    width: auto;
+    /*margin-left:80px;*/
+   position: relative;
+   left:  80px;
+
+}
+
+.formulario input[type="submit"]:hover{
+background-color: #2e64a1;
+}
+
+
+
+/*---------*/
 
 
