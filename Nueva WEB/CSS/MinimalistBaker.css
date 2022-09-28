@@ -1,0 +1,13 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Trocchi', serif;*/
+
+body{
+    background-color: black;
+    color: aqua;
+}
+
+p{
+    background-color: blueviolet;
+}
