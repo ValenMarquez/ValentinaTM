@@ -1,0 +1,356 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+    background-color: #2e64a1;
+    padding-top: 16px;
+
+}
+
+header h1 {
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+
+nav {
+    background-color: #6da9ed;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    /*factor de crecimiento en línea*/
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    /*saca linea del link*/
+    color: white;
+    padding: 5px;
+    /*margenes de botones*/
+    display: block;
+    text-align: center;
+    /*para centrar botones*/
+
+}
+
+nav ul li a:hover {
+    background: #4c76a5;
+}
+
+/* :hover es para animar por ejemplo: el boton*/
+
+nav ul li a.activo {
+    background-color: #4c76a5;
+}
+
+/* .activo va pegado al a asi puede reconocer la clase especifica*/
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+    /* arriba-abajo  laterales*/
+    margin-top: 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+/*va en el main , div del header y el ul del nav*/
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.homeimg img {
+    max-width: 100%;
+}
+
+.bienvenidos {
+    width: 75%;
+    margin-right: 16px;
+
+}
+
+.testimonios {
+    width: 25%;
+
+}
+
+.columnas {
+    display: flex;
+}
+
+.testimonio {
+    background: rgb(206, 203, 203);
+    width: 200px;
+
+}
+
+span {
+    margin-left: 16px;
+
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    display: block;
+    padding-top: 20px;
+
+
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.historia p {
+    font-size: 13px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pers {
+    border: 1px solid rgba(165, 165, 165, 1);
+    border-radius: 5px;
+    width: 18%;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 10px;
+
+
+}
+
+.pers img {
+    border-radius: 50%;
+    max-width: 55%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 13px;
+
+}
+
+
+
+.pers h5 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    margin: 0;
+    font-variant: bold;
+
+}
+
+.pers h6 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    margin: 0;
+
+
+
+}
+
+.pers p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+
+
+
+.servicio .info h4 {
+    color: #2e64a1;
+    font-size: 16px;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 8px;
+
+}
+
+.servicio .info p {
+    font-size: 13px;
+}
+
+.servicio img {
+    border-radius: 20px 20px 20px 0;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+    /*hijos pares*/
+    flex-direction: row-reverse;
+}
+
+
+.servicio {
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 20px 0 0 0;
+    margin: 16px 0;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.contacto {
+    display: flex;
+    gap: 25px;
+}
+
+.contacto section {
+    width: 100%;
+}
+
+.datos {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+
+}
+
+
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background-color: rgb(223, 217, 217);
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.formulario p textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario input[type="submit"] {
+    background-color: #6da9ed;
+    box-shadow: 0 0 4px rgb(194, 192, 192);
+    color: white;
+    font-size: 16px;
+    width: auto;
+    /*margin-left:80px;*/
+    position: relative;
+    left: 80px;
+
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2e64a1;
+}
+
+
+
+/*---------*/
+
+@media screen and (max-width:550px) {
+    /*aca van todas las modificaciones*/
+
+ 
+
+    .columnas {
+        flex-direction: column;
+    }
+
+    .bienvenidos,
+    .testimonios {
+        width: 100%;
+    }
+
+    .testimonios {
+        display: none;
+    }
+
+    .holder {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .personas{
+        flex-wrap: wrap;
+    }
+
+    .pers{
+        width: 47%;
+    }
+
+    .historia p{
+        color: red;
+        font-size: 20px;
+    }
+
+    .servicio,
+    .servicio:nth-child(even){
+        flex-direction: column;
+    }
+
+    .servicio img{
+        width: 100%;
+        max-width: 100%;
+        /*crece y se adapta al espacio*/
+    }
+
+    .contacto{
+        flex-direction: column;
+    }
+
+}
