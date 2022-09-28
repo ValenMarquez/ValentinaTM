@@ -67,15 +67,25 @@ footer{
 
     nav{
         width: 100%;
+        border-bottom: 3px solid black;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-between;
     }
 
     main{
         width: 100%;
         padding:8px;
+        border-bottom: 3px solid black;
     }
 
     aside{
         width: 100%;
         padding:8px;
+        border-bottom: 3px solid black;
     }
 }
+
+
