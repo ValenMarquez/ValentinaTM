@@ -305,7 +305,7 @@ span {
 @media screen and (max-width:550px) {
     /*aca van todas las modificaciones*/
 
- 
+
 
     .columnas {
         flex-direction: column;
@@ -325,32 +325,42 @@ span {
         padding-right: 16px;
     }
 
-    .personas{
+    .personas {
         flex-wrap: wrap;
     }
 
-    .pers{
+    .pers {
         width: 47%;
     }
 
-    .historia p{
+    .historia p {
         color: red;
         font-size: 20px;
     }
 
     .servicio,
-    .servicio:nth-child(even){
+    .servicio:nth-child(even) {
         flex-direction: column;
     }
 
-    .servicio img{
+    .servicio img {
         width: 100%;
         max-width: 100%;
         /*crece y se adapta al espacio*/
     }
 
-    .contacto{
+    .contacto {
         flex-direction: column;
     }
 
+}
+
+main .galeria {
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.datos ul li a{
+    text-decoration: none;
+    color: black;
 }
