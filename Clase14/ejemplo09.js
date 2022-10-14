@@ -10,8 +10,8 @@ function validarForm(){
     passWordValido;
 
     if(resultado) {
-        alert('Es valido')
+        alert('Es válido')
     } else{
-        alert ('NO ES valido')
+        alert ('NO ES válido')
     }
 }
