@@ -1,0 +1,15 @@
+.caja{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+.caja.rojo{
+    background-color: red;
+}
+
+.caja.borde{
+    border: 2px solid black;
+}
