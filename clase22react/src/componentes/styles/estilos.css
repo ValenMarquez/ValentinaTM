@@ -1,0 +1,36 @@
+h3{
+    font-style: italic;
+    text-align: center;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.buttonGruop{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.success{
+    background-color: lightgreen;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.error{
+    background-color: lightcoral;
+    padding: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    cursor: pointer;
+}
