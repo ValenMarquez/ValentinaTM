@@ -1,5 +1,5 @@
 import './App.css';
-import './componentes/styles/estilos.css'
+import './styles/estilos.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -9,12 +9,12 @@ import Header from './componentes/layouts/Header';
 import Nav from './componentes/layouts/Nav';
 import Footer from './componentes/layouts/Footer';
 
-import HomePage from './componentes/pages/HomePage';
-import Ejemplo1 from './componentes/pages/Ejemplo1';
-import Ejemplo2 from './componentes/pages/Ejemplo2';
-import Ejemplo3 from './componentes/pages/Ejemplo3';
-import Ejemplo4 from './componentes/pages/Ejemplo4';
-import Ejemplo5 from './componentes/pages/Ejemplo5';
+import HomePage from './pages/HomePage';
+import Ejemplo1 from './pages/Ejemplo1';
+import Ejemplo2 from './pages/Ejemplo2';
+import Ejemplo3 from './pages/Ejemplo3';
+import Ejemplo4 from './pages/Ejemplo4';
+import Ejemplo5 from './pages/Ejemplo5';
 
 
 
