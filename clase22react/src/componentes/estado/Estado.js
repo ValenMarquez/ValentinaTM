@@ -22,7 +22,7 @@ function Ejemplo2Estado(props) {
     return (
         <div className="container">
             <div className="counter">
-              <h3>{`Contador: ${counter}`}</h3>
+              <h3>{`Contador Dinámico: ${counter}`}</h3>
            </div>
 
            <div className="buttonGruop">
