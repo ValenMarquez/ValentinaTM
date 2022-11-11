@@ -1,0 +1,24 @@
+.contenedor { display: flex;
+
+}
+
+.caja1 {
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caja2 {
+    background-color: rgb(153, 51, 93);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.caja3 {
+    background-color: rgb(51, 138, 153);
+    height: 200px;
+    width: 200px;
+    color: white;
+}
