@@ -1,5 +1,6 @@
 import './App.css';
-import './styles/estilos.css'
+import './styles/estilos.css';
+
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
