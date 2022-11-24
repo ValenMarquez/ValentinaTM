@@ -1,0 +1,14 @@
+header {
+    background-color: #2e64a1;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin: 0;
+}

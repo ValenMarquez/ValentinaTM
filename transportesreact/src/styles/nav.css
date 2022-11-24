@@ -1,0 +1,32 @@
+nav{
+    background-color: #6da9ed ; 
+    margin-bottom: 20px; 
+  }
+  
+  nav ul{
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      display: flex;
+  }
+  
+  nav ul li{
+      flex-grow: 1;
+  }
+  
+  nav ul li a{
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+      display: block;
+      text-align: center;
+  }
+  
+  nav ul li a:hover{
+      background-color: #4c76a5;
+      /* background-color: rgba(0,0,0,0.3); */
+  }
+  
+  nav ul li a.activo{
+      background-color: #4c76a5;
+  }

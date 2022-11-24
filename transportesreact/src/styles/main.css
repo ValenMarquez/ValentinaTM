@@ -1,0 +1,189 @@
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #2e64a1;
+   font-weight: 400; 
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 16px;
+    /* background-color: yellow; */
+}
+
+.testimonios{
+    width: 25%;
+    /* background-color: lightcoral; */
+}
+
+.columnas{
+    display: flex;
+}
+
+.testimonio{
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+  
+}
+
+.testimonio .autor{
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    margin-top:16px;
+}
+
+
+.historia p{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+   
+}
+
+.persona img{
+  border-radius: 50%;
+  max-width: 65%;
+  box-shadow: 0 0 5px black;
+  margin:13px 0 16px;
+}
+
+.persona h5,
+.persona h6{
+    color: #2e64a1;
+    font-weight: normal;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.persona h6{
+    font-style: italic;
+
+}
+
+.persona p{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.servicio{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:16px 0;
+    padding: 16px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 8px;
+}
+
+.servicio img{
+    max-width: 225px;
+    display: block;
+    border-radius: 15px;
+}
+
+.servicio:nth-child(even){ /*hijos pares*/
+    flex-direction: row-reverse;
+}
+
+.contacto{
+    display: flex;
+    gap: 25px;
+    /* justify-content: space-between; */
+}
+
+.contacto section{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario  p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px gray;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    margin-left:80px; 
+    transition: all 0.2s ease;
+    cursor: pointer;
+    /* position: relative;
+    left: 80px; */
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
+}
+
