@@ -2,7 +2,7 @@ const colores = ['uno', 'dos', 'tres'];
 
 const [rojo, amarillo, verde] = colores;
 
-const nombre= 'Flavia'
+const nombre= 'Valentina'
 
 console.log(rojo);
 
