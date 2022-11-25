@@ -24,11 +24,11 @@ const alumnos = [
 //para que aparescan las edades clasificada hay que crear un NUEVO ARRAY
 
 const chicos = alumnos.filter(
-    alumno => alumno.edad <=4
+    alumno => alumno.edad <= 4
 )
 
 console.log(chicos)
 
-for(let i=0; i<chicos.length; i++){
+for (let i = 0; i < chicos.length; i++) {
     document.write(`<p>Niño: ${chicos[i].nombre}, cuya edad es ${chicos[i].edad}<p>`)
 }
