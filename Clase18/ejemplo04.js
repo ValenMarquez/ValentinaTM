@@ -76,7 +76,7 @@ const numMes = parseInt(prompt('Ingrese el mes del año', ''))
 
 const resultado = getNombreDiasForMes(numMes);
 
-if(resultado) {
+if (resultado) {
     alert(`El mes ${resultado.nombre} tiene ${resultado.dias}`)
     // alert('El mes ' + resultado.nombre + 'tiene' + resultado.dias + '.')
 
