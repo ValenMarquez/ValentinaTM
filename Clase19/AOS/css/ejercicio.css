@@ -1,9 +1,12 @@
 .bloque{
     width: 40%;
     padding: 150px;
-    background-color: blue;
-    border: 5px solid red;
+    background-color: rgb(161, 161, 241);
+    border: 5px solid rgb(105, 95, 241);
     margin: 0 auto 20px;
     text-align: center;
     
+}
+body{
+    background-color: rgb(72, 87, 175);
 }
