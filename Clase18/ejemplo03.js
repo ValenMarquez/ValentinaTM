@@ -1,4 +1,4 @@
-const empleados =[
+const empleados = [
     {
         nombre: 'Gaspar', trabajo: 'desarrollador'
 
